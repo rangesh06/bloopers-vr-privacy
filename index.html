@@ -1,522 +1,468 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bloopers VR — Privacy Policy</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta
     name="description"
-    content="Privacy policy for Bloopers VR, including data use, multiplayer services, and how to request deletion of personal data."
-  />
+    content="Bloopers VR Privacy Policy: information processing, multiplayer services, local saves, and worldwide data deletion requests."
+  >
+  <title>Bloopers VR — Privacy Policy</title>
   <style>
-    :root { color-scheme: light dark; }
-    * { box-sizing: border-box; }
+    :root {
+      color-scheme: light;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      color: #222;
+      background: #fafafa;
+    }
 
     body {
       margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.6;
+      line-height: 1.7;
     }
 
     main {
-      max-width: 760px;
+      max-width: 850px;
       margin: 0 auto;
-      padding: 40px 20px 80px;
+      padding: 40px 24px 64px;
     }
 
-    header {
-      border-bottom: 1px solid #ccc;
-      margin-bottom: 24px;
-      padding-bottom: 16px;
-    }
-
-    h1 {
-      font-size: 2rem;
-      margin: 0 0 8px;
+    h1, h2, h3 {
+      line-height: 1.3;
     }
 
     h2 {
-      font-size: 1.25rem;
-      margin-top: 32px;
-      border-top: 1px solid #e0e0e0;
-      padding-top: 20px;
+      margin-top: 36px;
     }
 
     h3 {
-      font-size: 1.1rem;
       margin-top: 24px;
     }
 
-    .meta {
-      opacity: 0.75;
-      font-size: 0.95rem;
-    }
-
-    ul, ol { padding-left: 24px; }
-    li { margin-bottom: 8px; }
-
-    .notice {
-      background: rgba(127, 127, 127, 0.12);
-      border: 1px solid rgba(127, 127, 127, 0.35);
-      border-radius: 8px;
-      padding: 12px 16px;
-    }
-
-    footer {
-      margin-top: 40px;
-      font-size: 0.9rem;
-      opacity: 0.75;
-    }
-
     a {
-      text-underline-offset: 3px;
+      color: #1456a0;
       overflow-wrap: anywhere;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .metadata {
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ddd;
     }
   </style>
 </head>
 <body>
-<main>
-  <header>
-    <h1>Bloopers VR — Privacy Policy</h1>
-    <p class="meta">
-      Effective date: October 9, 2026<br />
-      App: Bloopers VR for Meta Quest<br />
-      Developer/operator: Rangesh U S, operating as Spawn Bridge<br />
-      Country: India<br />
-      Privacy and deletion contact:
-      <a href="mailto:hello@spawnbridge.com">hello@spawnbridge.com</a>
-    </p>
-  </header>
+  <main>
+    <header>
+      <h1>Bloopers VR — Privacy Policy</h1>
+      <p class="metadata">
+        <strong>Last updated:</strong> October 12, 2026<br>
+        <strong>Application:</strong> Bloopers VR (Meta Quest)<br>
+        <strong>Developer and data controller:</strong>
+        Rangesh U S, operating as Spawn Bridge<br>
+        <strong>Location:</strong> India<br>
+        <strong>Privacy, correction, deletion, and security:</strong>
+        <a href="mailto:hello@spawnbridge.com">hello@spawnbridge.com</a>
+      </p>
+    </header>
 
-  <div class="notice">
-    <p>
-      <strong>Short version:</strong>
-      Bloopers VR processes your Meta app-scoped User ID to identify
-      your account and associate saved preferences and rewards with
-      the correct player. Your chosen in-game name, character color,
-      and local progress are saved on your headset. During online
-      multiplayer, player identifiers, names, character movement,
-      and match information are transmitted through Normcore to
-      synchronize the game with other players. This release does
-      not include voice chat.
-    </p>
-    <p>
-      <strong>Request deletion:</strong>
-      All users worldwide can request deletion of their personal
-      data, free of charge, by emailing
-      <a href="mailto:hello@spawnbridge.com?subject=Bloopers%20Data%20Deletion%20Request">
-        hello@spawnbridge.com
-      </a>.
-      See <a href="#deletion">Section 7</a> for instructions.
-    </p>
-  </div>
+    <section aria-labelledby="summary">
+      <h2 id="summary">Privacy at a glance</h2>
+      <p>
+        Bloopers VR is a virtual reality obstacle-racing game with Solo
+        Practice and optional multiplayer. We use Meta Platform services
+        to verify access to the game at startup. No separate game login
+        is required.
+      </p>
+      <p>
+        The current version does not request your Meta account User ID,
+        username, or profile photo. Names, character colors, and rewards
+        are saved locally using an app-generated identifier. Multiplayer
+        uses Normcore and room-scoped player identifiers to synchronize
+        gameplay.
+      </p>
+      <p>
+        All users worldwide may request access to, correction of, or
+        deletion of their Bloopers VR personal data free of charge.
+        Email
+        <a href="mailto:hello@spawnbridge.com?subject=Bloopers%20VR%20Data%20Deletion%20Request">hello@spawnbridge.com</a>.
+        See <a href="#privacy-choices">Section 8</a> for instructions.
+      </p>
+    </section>
 
-  <h2>1. About this policy</h2>
-  <p>
-    Rangesh U S, operating as Spawn Bridge, operates Bloopers VR,
-    a VR obstacle-racing party game with Solo Practice and optional
-    online multiplayer, including Quick Match, hosting a room,
-    and joining by room code. Rangesh U S is the data controller
-    responsible for determining the purposes and means of processing
-    the personal data described in this policy.
-  </p>
-  <p>
-    In this policy, “we,” “us,” and “our” refer to Rangesh U S,
-    operating as Spawn Bridge.
-  </p>
-  <p>
-    This policy explains what information Bloopers VR processes,
-    why it is used, where it is stored or transmitted, and how you
-    can request deletion. Processing includes information used
-    temporarily during gameplay, information saved on your headset,
-    and information transmitted to operate multiplayer.
-  </p>
+    <section aria-labelledby="who-we-are">
+      <h2 id="who-we-are">1. Who we are and what this policy covers</h2>
+      <p>
+        Rangesh U S, operating as Spawn Bridge (“we,” “us,” or “our”),
+        develops and operates Bloopers VR. This policy describes
+        information processed through the game and our support
+        communications, its purposes and recipients, retention, and
+        your privacy choices.
+      </p>
+      <p>
+        Processing includes accessing information through software
+        development kits, using it in gameplay, saving it locally,
+        and transmitting it over a network.
+      </p>
+    </section>
 
-  <h2>2. Information we process</h2>
+    <section aria-labelledby="information">
+      <h2 id="information">2. Information we process</h2>
 
-  <h3>2.1 Meta Platform information</h3>
-  <ul>
-    <li>
-      <strong>Meta app-scoped User ID:</strong>
-      Bloopers VR requests the current user's unique app-scoped
-      account identifier through the Meta Platform SDK. We use this
-      identifier to recognize the account across sessions and
-      associate saved preferences and rewards with the correct
-      account. It is cached locally and included in multiplayer
-      player synchronization. Although it is not your real name,
-      it is an account identifier and is treated as personal data.
-    </li>
-    <li>
-      <strong>App entitlement information:</strong>
-      The app checks with Meta whether your account is entitled to
-      use Bloopers VR. This check is used to verify access to the app.
-    </li>
-    <li>
-      <strong>Meta username and profile photo:</strong>
-      The current release does not use your Meta username or profile
-      photo to display your in-game identity. Your in-game display
-      name is chosen within Bloopers VR.
-    </li>
-    <li>
-      <strong>Store purchases:</strong>
-      Payments for the app through the Meta Horizon Store are
-      processed by Meta. We do not receive your payment-card
-      number or banking details.
-    </li>
-  </ul>
+      <h3 id="platform-services">2.1 Meta platform services</h3>
+      <p>
+        We initialize Meta Platform services and check whether your
+        account has access to Bloopers VR. We use the entitlement
+        result to permit or deny access. We do not request your Meta
+        account User ID, username, or profile photo.
+      </p>
+      <p>
+        Meta processes purchases through the Meta Horizon Store.
+        We do not receive your full payment-card or banking details.
+      </p>
 
-  <h3>2.2 Information stored on your headset</h3>
-  <ul>
-    <li>
-      <strong>Chosen in-game display name:</strong>
-      If you enter a name, we save it locally and associate it with
-      your account identifier. A default name is used if you do not
-      choose one.
-    </li>
-    <li>
-      <strong>Character color and appearance preferences:</strong>
-      We save your selected Blooper color locally and associate it
-      with your account.
-    </li>
-    <li>
-      <strong>Gameplay progress and rewards:</strong>
-      Local app storage holds saved gameplay information, such as
-      best times and coin/reward data. These local saves are not a
-      developer-operated cloud-save service.
-    </li>
-    <li>
-      <strong>Cached identifiers and settings:</strong>
-      The app saves information needed to restore your player
-      identity and preferences. In supported development or fallback
-      environments, it may use a locally generated identifier instead
-      of a Meta User ID.
-    </li>
-  </ul>
+      <h3 id="local-information">2.2 Local game information</h3>
+      <p>
+        The game stores the following in local application storage
+        on your headset:
+      </p>
+      <ul>
+        <li>Your chosen in-game name, or a default name.</li>
+        <li>Your selected character color.</li>
+        <li>Your Solo best time.</li>
+        <li>Your coin balance and reward receipts.</li>
+        <li>An app-generated random identifier for the local profile.</li>
+      </ul>
+      <p>
+        The local identifier associates saved names, colors, and
+        rewards with the local profile. It is not derived from your
+        Meta account and is not included in synchronized multiplayer
+        player data. Solo best times are stored for the app rather
+        than separately for each profile.
+      </p>
+      <p>
+        We do not operate a developer-controlled cloud-save database.
+        Clearing app data may remove the local identifier and saves.
+        Platform backup features may retain or restore copies.
+      </p>
+      <p>
+        <strong>Updates from older versions:</strong>
+        Older versions used locally cached account identifiers to
+        organize saves. On update, the game may read the last-used
+        cached identifier solely to migrate that profile’s name,
+        color, and reward receipts to the local identifier, without
+        requesting an account identifier from Meta.
+      </p>
+      <p>
+        Following successful migration, that profile’s legacy
+        identifier cache, preference keys, and wallet files are
+        removed. Other historical profiles are not merged and may
+        remain in local storage; unsuccessful migrations retain data
+        for recovery. These remaining files can be removed by
+        clearing local application data. Legacy identifiers are not
+        included in multiplayer player data by the current version.
+      </p>
 
-  <h3>2.3 Online multiplayer information</h3>
-  <p>
-    Multiplayer uses Normcore, provided by Normal Inc. When you join
-    online play, information is transmitted through Normcore and
-    synchronized with other players' game clients as needed to
-    operate the session. This includes:
-  </p>
-  <ul>
-    <li>
-      Your account identifier, chosen in-game display name,
-      character color, and player/spawn assignment.
-    </li>
-    <li>
-      Character position, orientation, movement state, and jump events.
-    </li>
-    <li>
-      Match progress, checkpoints, finish or elimination state,
-      and finish times.
-    </li>
-    <li>
-      Room identifiers or codes, round state, timing, and
-      game-generated bot identifiers.
-    </li>
-    <li>
-      Technical connection information, such as your IP address,
-      processed by the multiplayer service to establish and
-      operate network connections.
-    </li>
-  </ul>
-  <p>
-    Other players can see your chosen name, character appearance,
-    movement, and relevant match results. Your account identifier
-    is included in synchronized player data even though it is not
-    intended to be displayed as your player name.
-  </p>
-  <p>
-    Solo Practice does not require joining a Normcore multiplayer
-    room. Meta Platform ownership and identity checks are separate
-    from multiplayer connections.
-  </p>
+      <h3 id="multiplayer">2.3 Multiplayer and Normcore</h3>
+      <p>
+        Quick Match and private Host/Join rooms use Normcore. During
+        online play, the following information is processed by the
+        networking service and synchronized with participating game
+        clients as applicable:
+      </p>
+      <ul>
+        <li>
+          Room-scoped client identifiers, chosen names, character
+          colors, and player or spawn assignments.
+        </li>
+        <li>
+          Character positions, rotations, movement states, and
+          jump events.
+        </li>
+        <li>
+          Room names or codes, match and round identifiers, timers,
+          and game-generated bot or ghost identifiers.
+        </li>
+        <li>
+          Checkpoint progress, finish or elimination status, and
+          finish times.
+        </li>
+      </ul>
+      <p>
+        The networking provider also processes technical connection
+        information, including IP addresses, to operate its service.
+        Other players see chosen names, character appearances and
+        movements, and match outcomes.
+      </p>
+      <p>
+        The current version does not include Meta account IDs or
+        persistent local save identifiers in multiplayer player data.
+      </p>
+      <p>
+        Solo Practice does not require joining a Normcore room.
+        Meta entitlement checks are separate from multiplayer
+        connections.
+      </p>
 
-  <h3>2.4 Privacy and support correspondence</h3>
-  <p>
-    If you contact us, we receive your email address, the contents
-    of your message, and any information you provide to help us
-    answer your question or identify and verify a deletion request.
-  </p>
+      <h3>2.4 Movement and voice</h3>
+      <p>
+        Headset and controller movement is processed for gameplay
+        and may be represented in synchronized character movement
+        during multiplayer. Gameplay uses controllers rather than
+        hand-tracking or eye-tracking features.
+      </p>
+      <p>
+        The current release does not provide voice chat or collect,
+        record, transmit, or transcribe microphone audio for voice chat.
+      </p>
 
-  <h3>2.5 Voice chat</h3>
-  <p>
-    Voice chat is not included in this release. Bloopers VR does
-    not collect, transmit, record, or transcribe microphone audio
-    for voice chat.
-  </p>
+      <h3 id="connectivity">2.5 Connectivity checks</h3>
+      <p>
+        After a multiplayer connection failure, the game may contact
+        Google and Cloudflare connectivity-check endpoints to
+        determine whether internet access is available. These
+        services receive your IP address and ordinary network
+        request information.
+      </p>
+      <p>
+        The game does not add account identifiers, local save
+        identifiers, chosen names, or reward records to these requests.
+      </p>
 
-  <h2>3. Information we do not use</h2>
-  <ul>
-    <li>
-      We do not use player data for advertising, targeted
-      advertising, or cross-app tracking.
-    </li>
-    <li>
-      We do not sell personal data or provide it to data brokers.
-    </li>
-    <li>
-      This release does not use Firebase Analytics events or
-      initialize Firebase Auth, Firestore, or Functions to
-      transmit gameplay data.
-    </li>
-    <li>
-      We do not request access to your contacts, photo library,
-      or precise geographic location.
-    </li>
-    <li>
-      This release uses controllers rather than hand-tracking
-      or eye-tracking data.
-    </li>
-    <li>
-      We do not receive payment-card or banking details from
-      Meta Store purchases.
-    </li>
-  </ul>
+      <h3>2.6 Support and privacy communications</h3>
+      <p>
+        If you contact us, we process your email address, message,
+        and information you voluntarily provide to respond or verify
+        a privacy request. Do not send passwords, payment-card
+        details, or other sensitive credentials.
+      </p>
+    </section>
 
-  <h2>4. How we use information</h2>
-  <p>We use the information described above to:</p>
-  <ul>
-    <li>Verify your entitlement to access Bloopers VR.</li>
-    <li>Identify your account consistently across gameplay sessions.</li>
-    <li>
-      Save and restore account-associated names, character
-      preferences, progress, and rewards.
-    </li>
-    <li>
-      Connect multiplayer sessions and synchronize players,
-      character movement, and match state.
-    </li>
-    <li>
-      Calculate match results and award local gameplay rewards.
-    </li>
-    <li>
-      Validate and sanitize player-selected names and other game inputs.
-    </li>
-    <li>
-      Respond to support questions and process privacy and deletion requests.
-    </li>
-  </ul>
+    <section aria-labelledby="purposes">
+      <h2 id="purposes">3. Why we use information</h2>
+      <p>We process information to:</p>
+      <ol>
+        <li>Verify your access to Bloopers VR.</li>
+        <li>Save local preferences, best times, and rewards.</li>
+        <li>Migrate existing saves when updating the game.</li>
+        <li>Provide online rooms and synchronized gameplay.</li>
+        <li>Determine and display match results.</li>
+        <li>Diagnose connection failures and validate chosen names.</li>
+        <li>Respond to support and privacy requests.</li>
+        <li>Comply with applicable legal obligations.</li>
+      </ol>
+      <p>
+        We do not sell personal data or use gameplay information or
+        legacy account identifiers for targeted advertising or
+        cross-app tracking.
+      </p>
+    </section>
 
-  <h2>5. Service providers and disclosure</h2>
-  <ul>
-    <li>
-      <strong>Meta:</strong>
-      Provides the Meta Quest platform, Horizon Store, account
-      identity, and app entitlement services. Meta independently
-      processes information under its own policies.
-      <a href="https://www.meta.com/legal/privacy-policy/">
-        Meta Privacy Policy
-      </a>.
-    </li>
-    <li>
-      <strong>Normal Inc. / Normcore:</strong>
-      Provides multiplayer networking and player-state
-      synchronization. Information necessary to operate online
-      sessions is transmitted through this service.
-      <a href="https://normcore.io/legal/privacy">
-        Normcore Privacy Policy
-      </a>.
-    </li>
-    <li>
-      <strong>Email service providers:</strong>
-      Process messages sent to our privacy and support address
-      so that we can receive and respond to requests.
-    </li>
-  </ul>
-  <p>
-    We may also disclose information when necessary to comply
-    with applicable law or a valid legal request. We do not sell
-    personal data.
-  </p>
+    <section aria-labelledby="recipients">
+      <h2 id="recipients">4. Who receives information</h2>
+      <p>
+        <strong>Meta:</strong>
+        Provides platform entitlement and store services.
+        Information Meta processes independently is governed by
+        <a href="https://www.meta.com/legal/privacy-policy/">Meta’s privacy policy</a>.
+      </p>
+      <p>
+        <strong>Normcore:</strong>
+        Provides multiplayer networking and processes the information
+        described in <a href="#multiplayer">Section 2.3</a>.
+        Participating game clients receive synchronized game state.
+        <a href="https://normcore.io/privacy">Normcore’s published privacy policy</a>
+        describes its published practices, but states that it does
+        not apply to end users of customers’ applications. This
+        Bloopers VR policy describes our processing of player
+        information.
+      </p>
+      <p>
+        <strong>Google and Cloudflare:</strong>
+        Receive connectivity-check requests as described in
+        <a href="#connectivity">Section 2.5</a>. See
+        <a href="https://policies.google.com/privacy">Google’s privacy policy</a>
+        and
+        <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare’s privacy policy</a>.
+      </p>
+      <p>
+        <strong>Email providers:</strong>
+        Process correspondence so we can respond.
+      </p>
+      <p>
+        We may also disclose information when required by applicable law.
+      </p>
+    </section>
 
-  <h2>6. Data retention</h2>
-  <ul>
-    <li>
-      <strong>Local app data:</strong>
-      Saved identifiers, names, preferences, progress, and rewards
-      remain in your headset's app storage until removed through
-      an available reset or app-data deletion method.
-    </li>
-    <li>
-      <strong>Multiplayer state:</strong>
-      Player and match state is processed to operate multiplayer
-      sessions. Service-provider retention of connection information,
-      logs, or other records is governed by the applicable provider's
-      practices and our service arrangements.
-    </li>
-    <li>
-      <strong>Support and privacy requests:</strong>
-      We retain correspondence as needed to resolve the request
-      and document its handling. Information may be retained
-      longer where necessary to meet a legal obligation.
-    </li>
-  </ul>
-  <p>
-    Headset or platform backup features may preserve or restore
-    local app data. Uninstalling and reinstalling the app therefore
-    should not be assumed to permanently delete every copy of
-    saved data. Contact us for help identifying the appropriate
-    deletion steps.
-  </p>
+    <section aria-labelledby="storage">
+      <h2 id="storage">5. Storage and international processing</h2>
+      <p>
+        Local names, preferences, best times, identifiers, and
+        rewards are stored on your headset. Multiplayer information
+        passes through Normcore and participating game clients.
+        Connectivity requests are processed by Google and Cloudflare;
+        correspondence is processed in our email systems.
+      </p>
+      <p>
+        Local saves do not mean that all gameplay information remains
+        exclusively on your headset.
+      </p>
+      <p>
+        We operate from India. These services may process information
+        in other countries with different data protection rules.
+        Users worldwide may contact us about their privacy rights.
+      </p>
+    </section>
 
-  <h2 id="deletion">7. Your rights and how to request deletion</h2>
-  <div class="notice">
-    <p>
-      <strong>
-        All users, regardless of country or geographic location,
-        may request deletion of their personal data free of charge.
-      </strong>
-    </p>
-    <p>
-      Email:
-      <a href="mailto:hello@spawnbridge.com?subject=Bloopers%20Data%20Deletion%20Request">
-        hello@spawnbridge.com
-      </a><br />
-      Suggested subject:
-      <strong>Bloopers Data Deletion Request</strong>
-    </p>
-  </div>
+    <section aria-labelledby="retention">
+      <h2 id="retention">6. Retention</h2>
+      <p>
+        <strong>Local game information:</strong>
+        Local information can remain until the relevant application
+        data is cleared or removed. Uninstalling alone may not remove
+        copies retained or restored by platform backup features.
+        See <a href="#local-information">Section 2.2</a> for legacy
+        save migration and removal.
+      </p>
+      <p>
+        <strong>Multiplayer and connectivity information:</strong>
+        Networking and connectivity providers may retain connection
+        records, service logs, or room information according to their
+        service arrangements and applicable policies. We do not
+        represent all such information as immediately erased on
+        disconnect.
+      </p>
+      <p>
+        <strong>Support and privacy correspondence:</strong>
+        We retain correspondence as needed to handle requests,
+        maintain appropriate resolution records, or satisfy legal
+        obligations.
+      </p>
+      <p>
+        We delete or de-identify information when it is no longer
+        needed. We address applicable deletion requests without
+        undue delay and coordinate deletion of personal data
+        processed on our behalf with relevant providers.
+      </p>
+    </section>
 
-  <h3>How to submit a request</h3>
-  <ol>
-    <li>
-      Email us and state that you want your Bloopers VR personal
-      data deleted.
-    </li>
-    <li>
-      Include your in-game display name and describe any data
-      you specifically want removed, if known. You do not need
-      to know your numeric Meta User ID to start a request.
-    </li>
-    <li>
-      If additional information is reasonably necessary to
-      identify the account or verify ownership, we will explain
-      what is needed. Do not send your Meta password or
-      payment-card details.
-    </li>
-  </ol>
+    <section aria-labelledby="security">
+      <h2 id="security">7. Security</h2>
+      <p>
+        The game uses Meta entitlement checks, multiplayer room
+        separation, and validation of chosen names. Persistent local
+        save identifiers are excluded from multiplayer player data.
+        No storage or transmission method is completely secure.
+      </p>
+      <p>
+        Report privacy or security concerns to
+        <a href="mailto:hello@spawnbridge.com">hello@spawnbridge.com</a>.
+      </p>
+    </section>
 
-  <h3>How we handle your request</h3>
-  <ul>
-    <li>
-      We will identify and delete personal data associated with
-      your account that is held by us.
-    </li>
-    <li>
-      Where applicable, we will coordinate deletion of data
-      held on our behalf by service providers.
-    </li>
-    <li>
-      For information stored only on your headset, we will
-      provide instructions for removing the local app data.
-      We cannot remotely erase files from your headset.
-    </li>
-    <li>
-      We will confirm when the request has been completed.
-      If any information must be retained to meet a legal
-      obligation, we will explain the information retained
-      and the reason.
-    </li>
-  </ul>
+    <section aria-labelledby="privacy-choices">
+      <h2 id="privacy-choices">8. Your privacy choices and deletion</h2>
+      <p>
+        <strong>
+          Access, correction, and deletion requests are available to
+          all users worldwide, free of charge.
+        </strong>
+      </p>
 
-  <h3>What deletion means</h3>
-  <p>
-    Deleting local Bloopers VR data may remove your chosen
-    display name, character preferences, saved times, and
-    coin/reward progress. Deletion of Bloopers VR data does
-    not delete your Meta account, store ownership, or
-    information independently maintained by Meta.
-  </p>
-  <p>
-    If you use the app again after deletion, it may retrieve
-    your Meta app-scoped User ID again and create new local
-    or multiplayer data.
-  </p>
+      <h3>How to request deletion</h3>
+      <ol>
+        <li>
+          Email
+          <a href="mailto:hello@spawnbridge.com?subject=Bloopers%20VR%20Data%20Deletion%20Request">hello@spawnbridge.com</a>.
+        </li>
+        <li>
+          Use the subject
+          <strong>Bloopers VR Data Deletion Request</strong>,
+          or simply explain your request.
+        </li>
+        <li>
+          You may include your in-game name and a description of the
+          information concerned. You do not need a Meta User ID to
+          request deletion.
+        </li>
+        <li>
+          We may ask for limited information to verify the request.
+          We will never ask for your Meta password.
+        </li>
+      </ol>
 
-  <h3>Other choices</h3>
-  <ul>
-    <li>
-      You may choose Solo Practice instead of joining online multiplayer.
-    </li>
-    <li>
-      You may change or reset your chosen in-game display name.
-    </li>
-    <li>
-      You may contact us to ask about your personal data,
-      request correction, or exercise other rights available
-      under applicable law.
-    </li>
-  </ul>
+      <h3>What happens next</h3>
+      <p>
+        We will review and respond to your request, delete applicable
+        personal data under our control without undue delay, and
+        coordinate applicable deletion with providers processing it
+        on our behalf. We will explain any legally required retention
+        and confirm completed steps.
+      </p>
+      <p>
+        For headset-only information, we will explain how to remove
+        the relevant local application data. We cannot remotely erase
+        headset-only files.
+      </p>
 
-  <h2>8. Children</h2>
-  <p>
-    Bloopers VR is intended for a teen-through-adult audience
-    and is not directed to children under 13. If you believe
-    a child under 13 has provided personal data to us, contact
-    <a href="mailto:hello@spawnbridge.com">hello@spawnbridge.com</a>
-    so that we can investigate and address the information.
-  </p>
+      <h3>What deletion affects</h3>
+      <p>
+        Removing local data can delete names, character settings,
+        best times, coins, rewards, and legacy saves. It does not
+        delete your Meta account, store purchases, or information
+        independently controlled by providers. Using the game again
+        may create new local and multiplayer information.
+      </p>
 
-  <h2>9. Security</h2>
-  <p>
-    We use measures such as app entitlement checks, multiplayer
-    room separation, and validation of player-selected display
-    names to support the operation and security of the app.
-    No storage or transmission method can be guaranteed
-    completely secure.
-  </p>
+      <h3>Other privacy choices</h3>
+      <p>
+        You may change your chosen name through game settings and
+        use Solo Practice without joining a multiplayer room.
+      </p>
+    </section>
 
-  <h2>10. International processing</h2>
-  <p>
-    We operate from India. Our service providers may process
-    multiplayer connections and support correspondence in
-    countries other than your own. These countries may have
-    different data-protection laws. Your ability to request
-    deletion from us is available regardless of your location.
-  </p>
+    <section aria-labelledby="children">
+      <h2 id="children">9. Children and age-appropriate use</h2>
+      <p>
+        Bloopers VR is intended for a teen and adult audience and is
+        not directed to children under 13. Contact
+        <a href="mailto:hello@spawnbridge.com">hello@spawnbridge.com</a>
+        if you believe a child has provided information contrary to
+        the intended audience or applicable age requirements.
+        We will review and address the request in accordance with
+        applicable law and platform requirements.
+      </p>
+    </section>
 
-  <h2>11. Changes to this policy</h2>
-  <p>
-    We will update this policy when our data practices change,
-    including if we introduce cloud saves, analytics, voice chat,
-    additional Meta profile usage, or in-app purchases.
-    The effective date above identifies the latest revision.
-    Where required, we will provide additional notice or
-    obtain consent.
-  </p>
+    <section aria-labelledby="changes">
+      <h2 id="changes">10. Changes to this policy</h2>
+      <p>
+        We may update this policy when practices or features change.
+        We will update the date when publishing a revision and
+        provide additional notice where required by law.
+      </p>
+    </section>
 
-  <h2>12. Contact</h2>
-  <p>
-    Developer/operator and data controller:
-    <strong>Rangesh U S, operating as Spawn Bridge</strong><br />
-    Country: India<br />
-    Privacy questions and deletion requests:
-    <a href="mailto:hello@spawnbridge.com">hello@spawnbridge.com</a>
-  </p>
-  <p>
-    All users worldwide may request deletion of their personal
-    data free of charge by contacting the email address above.
-    See <a href="#deletion">Section 7</a> for details.
-  </p>
-  <p>
-    For questions about your Meta account, Meta Store billing,
-    or Meta's own data processing, use Meta's support and
-    privacy controls. You can still contact us directly
-    about Bloopers VR data.
-  </p>
-
-  <footer>
-    <p>
-      Bloopers VR — Spawn Bridge.<br />
-      Operated by Rangesh U S, India.<br />
-      No voice chat in this release. No sale of personal data.
-      Free deletion requests available worldwide.
-    </p>
-  </footer>
-</main>
+    <section aria-labelledby="contact">
+      <h2 id="contact">11. Contact</h2>
+      <p>
+        <strong>Developer and data controller:</strong>
+        Rangesh U S, operating as Spawn Bridge<br>
+        <strong>Country:</strong> India<br>
+        <strong>Privacy, correction, deletion, and security:</strong>
+        <a href="mailto:hello@spawnbridge.com">hello@spawnbridge.com</a>
+      </p>
+      <p>
+        <strong>
+          Data deletion requests are available worldwide, free of charge.
+        </strong>
+        See <a href="#privacy-choices">Section 8</a>.
+      </p>
+    </section>
+  </main>
 </body>
 </html>
