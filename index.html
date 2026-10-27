@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta
     name="description"
-    content="Bloopers VR Privacy Policy: information processing, multiplayer services, local saves, and worldwide data deletion requests."
+    content="Bloopers VR Privacy Policy: information processing, multiplayer and voice services, local saves, and worldwide data deletion requests."
   >
   <title>Bloopers VR — Privacy Policy</title>
   <style>
@@ -60,7 +60,7 @@
     <header>
       <h1>Bloopers VR — Privacy Policy</h1>
       <p class="metadata">
-        <strong>Last updated:</strong> October 12, 2026<br>
+        <strong>Last updated:</strong> October 27, 2026<br>
         <strong>Application:</strong> Bloopers VR (Meta Quest)<br>
         <strong>Developer and data controller:</strong>
         Rangesh U S, operating as Spawn Bridge<br>
@@ -84,6 +84,13 @@
         are saved locally using an app-generated identifier. Multiplayer
         uses Normcore and room-scoped player identifiers to synchronize
         gameplay.
+      </p>
+      <p>
+        Multiplayer includes voice chat. If you grant microphone access
+        and your microphone is enabled, your voice and other sounds
+        picked up by your microphone can be sent through Normcore to
+        players in your room. You can mute your microphone, mute
+        playback of other players, or use Solo Practice.
       </p>
       <p>
         All users worldwide may request access to, correction of, or
@@ -136,6 +143,11 @@
         <li>Your Solo best time.</li>
         <li>Your coin balance and reward receipts.</li>
         <li>An app-generated random identifier for the local profile.</li>
+        <li>
+          Voice preferences, including microphone and playback mute
+          settings, and information used to manage the microphone
+          permission prompt.
+        </li>
       </ul>
       <p>
         The local identifier associates saved names, colors, and
@@ -146,8 +158,9 @@
       </p>
       <p>
         We do not operate a developer-controlled cloud-save database.
-        Clearing app data may remove the local identifier and saves.
-        Platform backup features may retain or restore copies.
+        Clearing app data may remove the local identifier, saves, and
+        voice preferences. Platform backup features may retain or
+        restore copies.
       </p>
       <p>
         <strong>Updates from older versions:</strong>
@@ -191,12 +204,18 @@
           Checkpoint progress, finish or elimination status, and
           finish times.
         </li>
+        <li>
+          Voice audio and associated room and audio-stream information
+          when voice chat is used, as described in
+          <a href="#voice">Section 2.4</a>.
+        </li>
       </ul>
       <p>
         The networking provider also processes technical connection
         information, including IP addresses, to operate its service.
         Other players see chosen names, character appearances and
-        movements, and match outcomes.
+        movements, and match outcomes. They may also hear voice audio
+        sent to the room.
       </p>
       <p>
         The current version does not include Meta account IDs or
@@ -208,7 +227,7 @@
         connections.
       </p>
 
-      <h3>2.4 Movement and voice</h3>
+      <h3 id="voice">2.4 Movement and voice</h3>
       <p>
         Headset and controller movement is processed for gameplay
         and may be represented in synchronized character movement
@@ -216,9 +235,33 @@
         hand-tracking or eye-tracking features.
       </p>
       <p>
-        The current release does not provide voice chat or collect,
-        record, transmit, or transcribe microphone audio for voice chat.
+        Multiplayer voice chat uses your headset microphone if you
+        grant microphone permission and enable your microphone.
+        The game processes microphone audio, including your voice
+        and background sounds, and transmits it through Normcore
+        to participating clients in your multiplayer room so players
+        can communicate. Voice volume may also be used to animate
+        your character’s mouth.
       </p>
+      <p>
+        Your voice can reveal information about you or others nearby.
+        Other players in the room may hear and independently record
+        what you say. We cannot control or delete recordings made
+        independently by other players.
+      </p>
+      <p>
+        You can deny or revoke microphone permission in your Quest
+        app permissions, mute your microphone in the game, or mute
+        playback of other players. You can still play without granting
+        microphone access. Muting playback controls what you hear;
+        use the microphone control to mute your own outgoing voice.
+        Voice preferences are saved locally. Solo Practice does not
+        join a multiplayer voice room.
+      </p>
+    </section>
+
+    <section aria-labelledby="additional-information">
+      <h2 id="additional-information">Additional information we process</h2>
 
       <h3 id="connectivity">2.5 Connectivity checks</h3>
       <p>
@@ -247,9 +290,15 @@
       <p>We process information to:</p>
       <ol>
         <li>Verify your access to Bloopers VR.</li>
-        <li>Save local preferences, best times, and rewards.</li>
+        <li>
+          Save local preferences, including voice settings, best
+          times, and rewards.
+        </li>
         <li>Migrate existing saves when updating the game.</li>
-        <li>Provide online rooms and synchronized gameplay.</li>
+        <li>
+          Provide online rooms, synchronized gameplay, and
+          multiplayer voice communication.
+        </li>
         <li>Determine and display match results.</li>
         <li>Diagnose connection failures and validate chosen names.</li>
         <li>Respond to support and privacy requests.</li>
@@ -272,14 +321,22 @@
       </p>
       <p>
         <strong>Normcore:</strong>
-        Provides multiplayer networking and processes the information
-        described in <a href="#multiplayer">Section 2.3</a>.
-        Participating game clients receive synchronized game state.
+        Provides multiplayer networking and voice services and
+        processes the information described in
+        <a href="#multiplayer">Sections 2.3</a> and
+        <a href="#voice">2.4</a>. Participating game clients receive
+        synchronized game state and voice audio sent to their room.
         <a href="https://normcore.io/privacy">Normcore’s published privacy policy</a>
         describes its published practices, but states that it does
         not apply to end users of customers’ applications. This
         Bloopers VR policy describes our processing of player
         information.
+      </p>
+      <p>
+        <strong>Other players:</strong>
+        Players in your room can receive your voice audio when your
+        microphone is enabled. They may independently record or share
+        what they hear.
       </p>
       <p>
         <strong>Google and Cloudflare:</strong>
@@ -302,10 +359,11 @@
       <h2 id="storage">5. Storage and international processing</h2>
       <p>
         Local names, preferences, best times, identifiers, and
-        rewards are stored on your headset. Multiplayer information
-        passes through Normcore and participating game clients.
-        Connectivity requests are processed by Google and Cloudflare;
-        correspondence is processed in our email systems.
+        rewards are stored on your headset. Multiplayer information,
+        including voice audio when voice chat is used, passes through
+        Normcore and participating game clients. Connectivity requests
+        are processed by Google and Cloudflare; correspondence is
+        processed in our email systems.
       </p>
       <p>
         Local saves do not mean that all gameplay information remains
@@ -327,6 +385,14 @@
         copies retained or restored by platform backup features.
         See <a href="#local-information">Section 2.2</a> for legacy
         save migration and removal.
+      </p>
+      <p>
+        <strong>Voice audio:</strong>
+        Voice audio is processed for delivery during multiplayer
+        communication. Other players may independently record what
+        they hear. For requests concerning voice information
+        processed on our behalf, contact us using the instructions in
+        <a href="#privacy-choices">Section 8</a>.
       </p>
       <p>
         <strong>Multiplayer and connectivity information:</strong>
@@ -406,22 +472,27 @@
       <p>
         For headset-only information, we will explain how to remove
         the relevant local application data. We cannot remotely erase
-        headset-only files.
+        headset-only files or recordings independently made by other
+        players.
       </p>
 
       <h3>What deletion affects</h3>
       <p>
         Removing local data can delete names, character settings,
-        best times, coins, rewards, and legacy saves. It does not
-        delete your Meta account, store purchases, or information
-        independently controlled by providers. Using the game again
-        may create new local and multiplayer information.
+        voice preferences, best times, coins, rewards, and legacy
+        saves. It does not delete your Meta account, store purchases,
+        or information independently controlled by providers or other
+        players. Using the game again may create new local and
+        multiplayer information.
       </p>
 
       <h3>Other privacy choices</h3>
       <p>
         You may change your chosen name through game settings and
-        use Solo Practice without joining a multiplayer room.
+        use Solo Practice without joining a multiplayer room. In
+        multiplayer, you may mute your microphone or other players’
+        audio in the game. You may also deny or revoke microphone
+        access through Quest app permissions.
       </p>
     </section>
 
